@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PublishingRequest>
+    <RequestHeader>
+        <serviceRequestContext>
+            <serviceInvoker>ServiceInvoker</serviceInvoker>
+            <serviceInvokocationOriginator>Originator</serviceInvokocationOriginator>
+            <serviceProvider>Provider</serviceProvider>
+            <userID>UserID</userID>
+            <requestMessageId>MessageId</requestMessageId>
+            <timestamp>Timestamp</timestamp>
+        </serviceRequestContext>
+    </RequestHeader>
+    <UnderwritingSystemInd>SomeValue</UnderwritingSystemInd>
+    <RequestType>Type</RequestType>
+    <Input>
+        <endorsement>
+            <rtf>RtfValue</rtf>
+        </endorsement>
+    </Input>
+    <NextPublishingRequest>
+        <ngFormList>
+            <formId>FormIdValue</formId>
+            <draftIndicator>Yes</draftIndicator>
+        </ngFormList>
+    </NextPublishingRequest>
+</PublishingRequest>
